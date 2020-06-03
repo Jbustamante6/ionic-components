@@ -1,0 +1,108 @@
+[
+	{
+		"icon": "american-football",
+		"nombre": "action sheet",
+		"path": "/action-sheet"
+	},
+	{
+		"icon": "alert",
+		"nombre": "alert",
+		"path": "/alert"
+	},
+	{
+		"icon": "beaker",
+		"nombre": "avatar",
+		"path": "/avatar"
+	},
+	{
+		"icon": "radio-button-on",
+		"nombre": "Botones",
+		"path": "/botones"
+	},
+	{
+		"icon": "card",
+		"nombre": "Cards",
+		"path": "/card"
+	},
+	{
+		"icon": "calendar",
+		"nombre": "Date Time",
+		"path": "/date-time"
+	},
+	{
+		"icon": "car",
+		"nombre": "Fab Button",
+		"path": "/fab"
+	},
+	{
+		"icon": "grid",
+		"nombre": "Grids-Rows",
+		"path": "/grid"
+	},
+	{
+		"icon": "infinite",
+		"nombre": "Infinite Scroll",
+		"path": "/infinite-scroll"
+	},
+	{
+		"icon": "hammer",
+		"nombre": "Inputs",
+		"path": "/input"
+	},
+	{
+		"icon": "list",
+		"nombre": "Listas - Slidings",
+		"path": "/list"
+	},
+	{
+		"icon": "list",
+		"nombre": "Listas - Reorder",
+		"path": "/list-reorder"
+	},
+	{
+		"icon": "refresh-circle",
+		"nombre": "Loading",
+		"path": "/loading"
+	},
+	{
+		"icon": "phone-portrait",
+		"nombre": "Modal",
+		"path": "/modal"
+	},
+	{
+		"icon": "tablet-portrait",
+		"nombre": "Popover",
+		"path": "/popover"
+	},
+	{
+		"icon": "code-working",
+		"nombre": "Progress Bar y Range",
+		"path": "/progress-bar"
+	},
+	{
+		"icon": "arrow-down",
+		"nombre": "Refresher",
+		"path": "/refresher"
+	}
+	,
+	{
+		"icon": "search",
+		"nombre": "Search Bar",
+		"path": "/search-bar"
+	},
+	{
+		"icon": "copy",
+		"nombre": "Segment",
+		"path": "/segment"
+	},
+	{
+		"icon": "albums",
+		"nombre": "Slides",
+		"path": "/slides"
+	},
+	{
+		"icon": "cog",
+		"nombre": "Tabs",
+		"path": "/tabs"
+	}
+]

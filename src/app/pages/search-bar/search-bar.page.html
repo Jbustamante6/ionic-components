@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" *ngIf="!showSeach">
+      <ion-back-button text="" defaultHref="/" ></ion-back-button>
+    </ion-buttons>
+
+    <ion-title *ngIf="!showSeach">Search Bar</ion-title>
+
+    <ion-buttons slot="end" *ngIf="!showSeach">
+      <ion-button (click)="showSeach=true">
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-searchbar 
+                  class="animated fadeIn" 
+                  [ngClass]="{'padding': platform.is('ios')}" 
+                  *ngIf="showSeach"
+                  debounce="500" 
+                  placeholder="Filter Pizza" 
+                  animated
+                  autofocus
+                  autocomplete="on"
+                  (ionChange)="buscar($event)"></ion-searchbar>
+    <ion-buttons slot="end" *ngIf="showSeach" [ngClass]="{'padding': platform.is('ios')}" >
+      <ion-button (click)="showSeach=false">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let item of albumes | filter: text : 'title'">
+      <ion-label>{{item.title}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
